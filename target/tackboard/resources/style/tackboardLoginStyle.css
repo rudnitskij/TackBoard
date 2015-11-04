@@ -1,0 +1,200 @@
+#header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: bisque;
+}
+
+#header h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 30px;
+    color: cornsilk;
+    text-align: center;
+}
+
+#header button {
+    height: 100px;
+    width: 85%;
+    horiz-align: center;
+    font-family: sans-serif, Garamond;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#header button:hover {
+    height: 120px;
+    width: 100%;
+    horiz-align: center;
+    font-family: sans-serif, Garamond;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#header form {
+    text-align: center;
+    color: cornsilk;
+    font-family: sans-serif, Garamond;
+    font-size: 25px;
+}
+
+#header2 form {
+    text-align: left;
+    color: cornsilk;
+    font-family: sans-serif, Garamond;
+    font-size: 25px;
+}
+
+#header input {
+    font-family: Trebuchet,Roman,sans-serif;
+    font-size: 25px;
+    height: 40px;
+}
+
+#header select {
+    font-size: 25px;
+    color: black;
+    height: 40px;
+}
+
+#header p {
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    color: cornsilk;
+}
+
+#navcontainer {
+    width: 250px;
+}
+
+#navcontainer ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align: justify
+}
+
+#navcontainer a {
+    display: block;
+    padding: 3px;
+    width: 230px;
+    background-color: #369;
+    border-bottom: 1px solid #e3e;
+    color:#ffffff ;
+}
+
+#navcontainer a:link, #navlist a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#navcontainer a:hover {
+    background-color: #369;
+    color: #ffffff;
+}
+
+#style2 {
+    text-align: center;
+    font-family: Comic Sans, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: aqua;
+}
+
+#style2 button {
+    height: 50px;
+    width: 90%;
+    horiz-align: center;
+    font-family: sans-serif, Garamond;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#style3 button {
+    height: 30px;
+    width: 90%;
+    horiz-align: center;
+    font-family: sans-serif, Garamond;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#style2 button:hover {
+    height: 60px;
+    width: 100%;
+    horiz-align: center;
+    font-family: sans-serif, Garamond;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#style3 button:hover {
+    height: 30px;
+    width: 90%;
+    horiz-align: center;
+    font-family: sans-serif, Garamond;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#advert {
+    font-family: Garamond, Arial, Roman;
+    font-size: 15px;
+    color: cadetblue;
+    background-color: aliceblue;
+    border: medium;
+    border-color: burlywood;
+    border-radius: 20px;
+}
+
+#tdCenter {
+    text-align: center;
+}
+
+#loginPanel {
+    position: fixed;
+    left: 10px;
+    top: 1%;
+    padding: 5px;
+    color: black;
+    background: aqua;
+    font-family: Garamond, Arial, Roman;
+    font-size: 15px;
+    border: 2px solid;
+    border-color: burlywood;
+    border-radius: 20px;
+}
+
+#logoutButton {
+    position: fixed;
+    left: 400px;
+    top: 1%;
+    padding: 5px;
+    color: black;
+    background: aqua;
+    font-family: Garamond, Arial, Roman;
+    font-size: 15px;
+    border: 2px solid;
+    border-color: burlywood;
+    border-radius: 20px;
+}
+
+#logoutButton a {
+    text-decoration: none;
+}
+
+#searchOptions {
+    position: fixed;
+    left: 20px;
+    top: 5%;
+    padding: 5px;
+    border: none;
+    color: inherit;
+    background: inherit;
+}
+
