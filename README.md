@@ -12,7 +12,7 @@ After that, locate src\main\resources\META-INF\persistence.xml which is in charg
 The application is supposed to be used with MySQL database. First of all it is required to create database schema by executing in SQL consolethe following request:<br>
 <code> create schema '{schemaname}'</code><br>
 {Schemaname} stands for the name chosen by you and this very name must be specified in the following line of <b>persistence.xml</b> file:<br>
-<code> <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/{schemaname}" /></code><br>
+<code>&#60;property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/{schemaname}" /></code><br>
 Your username and password for MySQL database are supposed to be specified in the following lines of the file:<br>
-<code> <property name="hibernate.connection.username" value="{username}" />
+<code>&#60;property name="hibernate.connection.username" value="{username}" />
             <property name="hibernate.connection.password" value="{password}" /></code><br>
